@@ -1,8 +1,6 @@
-#include <iostream>
-
-using std::cout, std::cin;
+#include "myLib.cc"
 
 int main(int agrc, char **argv)
 {
-    cout << "hello world"
+    printHello();
 }
